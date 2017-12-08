@@ -9,11 +9,8 @@
 			text-align: center;
 		}
 		#content{
-			display: grid;
-			/*grid-template-columns: 30% 20% 50%;*/
-			/*grid-template-columns: 1fr 2fr 1fr;*/
-			/* grid-template-columns: repeat(3, 1fr ); */
-			grid-template-rows: minmax(100px, auto);
+			display: grid;);
+			grid-auto-rows: minmax(150px, auto);
 			grid-template-columns: repeat(12, 1fr );
 			grid-gap:10px;
 			/* grid-auto-rows: minmax(200px, auto); */
@@ -35,9 +32,10 @@
 		}
 		aside{
 			grid-column: 1/4;
+			grid-row: 2/5;
 		}
 		section{
-			grid-column:1/4;
+			grid-column:4/13;
 
 		}
 
